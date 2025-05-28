@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>WhatsApp Privacy</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #1c1e21;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #075e54;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px;
+  background: #f0f2f5;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-img img {
+  max-width: 400px;
+}
+
+.features {
+  padding: 60px 50px;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.feature h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #555;
+}
+
+
+.Sufiyan {
+  background-color: rgb(82, 202, 38);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none; 
+  border-radius: 20px;
+  font-weight: bold;
+  position: absolute; 
+  top: 0;              
+  left: 0;             
+}
+
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">WhatsApp</div>
+    <a href="index.html" class="Sufiyan">&#60;</a>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Your privacy is our priority</h1>
+      <p>WhatsApp uses end-to-end encryption to protect your messages, calls, photos, and videos so only you and the person you're talking to can read or listen to them.</p>
+      <a href="https://business.whatsapp.com/learn-more" class="btn">Learn More</a>
+    </div>
+    <div class="hero-img">
+      <img src="Hero-lock.png" alt="Security Lock" />
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h2>End-to-End Encryption</h2>
+      <p>All your messages and calls are secured with end-to-end encryption, meaning not even WhatsApp can read or listen to them.</p>
+    </div>
+    <div class="feature">
+      <h2>Two-Step Verification</h2>
+      <p>Add an extra layer of security to your account by enabling two-step verification in settings.</p>
+    </div>
+    <div class="feature">
+      <h2>Privacy Controls</h2>
+      <p>Choose who can see your profile photo, last seen, and more with simple privacy controls.</p>
+    </div>
+  </section>
+</body>
+</html>
