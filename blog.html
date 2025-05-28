@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>WhatsApp Blog</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #075e54;
+  color: white;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.post-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.post-content a {
+  color: #075e54;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  color: #555;
+}
+
+.Sufiyan {
+  background-color: rgb(82, 202, 38);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none; 
+  border-radius: 20px;
+  font-weight: bold;
+  position: absolute; 
+  top: 0;              
+  left: 0;             
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="Sufiyan">&#60;</a>
+    <div class="container"><br>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="help.html">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+    <center><h1 class="logo">WhatsApp Blog</h1></center>
+  </header>
+
+  <main class="container">
+    <section class="blog-posts">
+      <article class="post-card">
+        <img src="1 post.png" alt="Post Image">
+        <div class="post-content">
+          <h2>New Feature: Chat Lock</h2>
+          <p>We’re excited to announce Chat Lock — an additional layer of privacy that lets you protect your sensitive conversations.</p>
+          <a href="#">Read more →</a>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="2 post.png" alt="Post Image">
+        <div class="post-content">
+          <h2>Enhancing Group Calls</h2>
+          <p>We're rolling out improvements to group calls so you can communicate better with your teams, friends, and families.</p>
+          <a href="#">Read more →</a>
+        </div>
+      </article>
+
+      <!-- Add more blog cards as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+    </div>
+  </footer>
+</body>
+</html>
